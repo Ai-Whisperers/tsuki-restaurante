@@ -19,7 +19,8 @@
     { "href": "/carta", "label": "Carta" },
     { "href": "/galeria", "label": "Galería" },
     { "href": "/nosotros", "label": "Nosotros" },
-    { "href": "/contacto", "label": "Contacto" }
+    { "href": "/contacto", "label": "Contacto" },
+    { "href": "/pedidos", "label": "Pedidos" }
   ],
   "home": {
     "seo": {
@@ -219,7 +220,8 @@
     },
     "hero": {
       "title": "Sobre Tsuki",
-      "subtitle": "Pasión por la cocina oriental"
+      "subtitle": "Pasión por la cocina oriental",
+      "image": "/images/restaurant-interior.jpg"
     },
     "story": [
       "Tsuki Restaurante Oriental nace de la pasión por los sabores auténticos de Asia. En San Lorenzo, ofrecemos una experiencia culinaria que combina recetas tradicionales chinas con la frescura del sushi japonés.",
@@ -242,9 +244,14 @@
       "subtitle": "Mirá nuestros platos"
     },
     "images": [
-      { "src": "/images/gallery/placeholder-1.jpg", "alt": "Sushi rolls", "category": "sushi" },
-      { "src": "/images/gallery/placeholder-2.jpg", "alt": "Arrolladitos", "category": "entradas" },
-      { "src": "/images/gallery/placeholder-3.jpg", "alt": "Plato wok", "category": "wok" }
+      { "src": "/images/sushi-1.jpg", "alt": "Sushi plato fresco con salmón", "category": "sushi", "width": 800, "height": 600 },
+      { "src": "/images/sushi-2.jpg", "alt": "Rollos de sushi variedad", "category": "sushi", "width": 800, "height": 600 },
+      { "src": "/images/wok-1.jpg", "alt": "Salteado wok con verduras", "category": "wok", "width": 800, "height": 600 },
+      { "src": "/images/wok-2.jpg", "alt": "Fideos salteados al wok", "category": "wok", "width": 800, "height": 600 },
+      { "src": "/images/spring-rolls.jpg", "alt": "Arrolladitos de primavera crocantes", "category": "entradas", "width": 800, "height": 600 },
+      { "src": "/images/gyozas.jpg", "alt": "Gyozas al vapor", "category": "entradas", "width": 800, "height": 600 },
+      { "src": "/images/shrimp.jpg", "alt": "Camarones fritos", "category": "mariscos", "width": 800, "height": 600 },
+      { "src": "/images/restaurant-interior.jpg", "alt": "Interior del restaurante", "category": "local", "width": 800, "height": 600 }
     ]
   },
   "contact": {
@@ -268,6 +275,33 @@
       "buttonHref": "https://wa.me/595974161698"
     }
   },
+  "order": {
+    "seo": {
+      "title": "Pedidos — Tsuki Restaurante Oriental",
+      "description": "Armá tu pedido online y envialo por WhatsApp. Elegí sushi, wok, entradas y más."
+    },
+    "hero": {
+      "title": "Hacé tu pedido",
+      "subtitle": "Elegí tus platos, agregalos al carrito y envialo por WhatsApp"
+    },
+    "categories": [
+      { "id": "entradas", "name": "Entradas" },
+      { "id": "sopas", "name": "Sopas" },
+      { "id": "salteados", "name": "Wok" },
+      { "id": "carne", "name": "Carne" },
+      { "id": "pollo", "name": "Pollo" },
+      { "id": "cerdo", "name": "Cerdo" },
+      { "id": "mariscos", "name": "Mariscos" },
+      { "id": "pescados", "name": "Pescados" },
+      { "id": "sushi", "name": "Sushi" }
+    ],
+    "cta": {
+      "title": "Confirmá tu pedido",
+      "subtitle": "Revisá tu carrito y envialo por WhatsApp para confirmar",
+      "buttonText": "Enviar pedido por WhatsApp",
+      "emptyText": "Tu carrito está vacío — agregá productos de la carta"
+    }
+  },
   "footer": {
     "copyright": "© 2026 Tsuki Restaurante Oriental. Todos los derechos reservados.",
     "poweredBy": "Ai-Whisperers",
@@ -277,7 +311,8 @@
       { "label": "Carta", "href": "/carta" },
       { "label": "Galería", "href": "/galeria" },
       { "label": "Nosotros", "href": "/nosotros" },
-      { "label": "Contacto", "href": "/contacto" }
+      { "label": "Contacto", "href": "/contacto" },
+      { "label": "Pedidos", "href": "/pedidos" }
     ]
   }
 }

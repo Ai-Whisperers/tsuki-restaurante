@@ -13,7 +13,7 @@ export default function GalleryClient({
 }: {
   images: GalleryImage[];
 }) {
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<GalleryImage | null>(null);
   const [activeCat, setActiveCat] = useState("all");
 
   const categories = [
@@ -21,6 +21,8 @@ export default function GalleryClient({
     { id: "sushi", name: "Sushi" },
     { id: "entradas", name: "Entradas" },
     { id: "wok", name: "Wok" },
+    { id: "mariscos", name: "Mariscos" },
+    { id: "local", name: "Local" },
   ];
 
   const filtered =
@@ -49,24 +51,19 @@ export default function GalleryClient({
         </div>
 
         {/* Gallery grid */}
-        <div className="columns-2 md:columns-3 gap-3 max-w-5xl mx-auto">
+        <div className="columns-2 md:columns-3 gap-4 max-w-5xl mx-auto">
           {filtered.map((img, i) => (
-            <div
-              key={i}
-              className="break-inside-avoid mb-3"
-            >
+            <div key={i} className="break-inside-avoid mb-4">
               <button
-                onClick={() => setSelected(img.src)}
+                onClick={() => setSelected(img)}
                 className="group w-full overflow-hidden rounded-xl border border-[var(--color-border)] hover:border-gold/40 transition-all"
               >
-                <div className="aspect-square bg-[var(--color-surface-alt)] flex items-center justify-center text-[var(--color-text-muted)] text-sm">
-                  {/* Placeholder — replace with <img> when real images exist */}
-                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="opacity-30">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                    <circle cx="8.5" cy="8.5" r="1.5" />
-                    <polyline points="21 15 16 10 5 21" />
-                  </svg>
-                </div>
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
               </button>
             </div>
           ))}
@@ -87,16 +84,21 @@ export default function GalleryClient({
         >
           <button
             onClick={() => setSelected(null)}
-            className="absolute top-4 right-4 text-white/60 hover:text-white text-2xl"
+            className="absolute top-4 right-4 text-white/60 hover:text-white text-2xl z-10"
             aria-label="Cerrar"
           >
             ✕
           </button>
-          <img
-            src={selected}
-            alt=""
-            className="max-w-full max-h-[85vh] object-contain rounded-lg"
-          />
+          <div className="relative max-w-3xl w-full">
+            <img
+              src={selected.src}
+              alt={selected.alt}
+              className="w-full max-h-[85vh] object-contain rounded-xl"
+            />
+            <p className="text-center text-sm text-[var(--color-text-muted)] mt-3">
+              {selected.alt}
+            </p>
+          </div>
         </div>
       )}
     </section>
