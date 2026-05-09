@@ -1,0 +1,283 @@
+{
+  "site": {
+    "name": "Tsuki Restaurante Oriental",
+    "shortName": "Tsuki",
+    "description": "Auténtica cocina oriental en San Lorenzo. Especialidades chinas, sushi y wok.",
+    "url": "https://tsuki.paragu-ai.com",
+    "phone": "+595 974 161698",
+    "whatsapp": "595974161698",
+    "email": "",
+    "address": "Louis Pasteur, San Lorenzo 111434, Paraguay",
+    "addressShort": "Louis Pasteur, San Lorenzo",
+    "hours": "Sáb 11:00–14:00 · 19:00–23:00",
+    "instagram": "",
+    "facebook": "",
+    "ogImage": "/images/og.jpg"
+  },
+  "navigation": [
+    { "href": "/", "label": "Inicio" },
+    { "href": "/carta", "label": "Carta" },
+    { "href": "/galeria", "label": "Galería" },
+    { "href": "/nosotros", "label": "Nosotros" },
+    { "href": "/contacto", "label": "Contacto" }
+  ],
+  "home": {
+    "seo": {
+      "title": "Tsuki Restaurante Oriental — Auténtica cocina china y sushi en San Lorenzo",
+      "description": "Descubrí Tsuki Restaurante Oriental en San Lorenzo. Arrolladitos, sushi, wok, gyozas y más. Abierto los sábados. Pedí por WhatsApp."
+    },
+    "hero": {
+      "eyebrow": "Tsuki Restaurante Oriental",
+      "headline": "Auténtica cocina oriental",
+      "subheadline": "Sabores de China y Japón en el corazón de San Lorenzo. Arrolladitos, sushi, wok, gyozas y más.",
+      "ctaPrimaryText": "Ver Carta",
+      "ctaPrimaryHref": "/carta",
+      "ctaSecondaryText": "Pedir por WhatsApp",
+      "ctaSecondaryHref": "https://wa.me/595974161698",
+      "bgImage": "/images/hero-bg.jpg"
+    },
+    "features": {
+      "title": "Nuestra cocina",
+      "subtitle": "Platos preparados con ingredientes frescos y recetas tradicionales",
+      "items": [
+        { "icon": "utensilsCrossed", "title": "Cocina China", "description": "Arroz chino, chop suey, yakisoba, carnes salteadas, sopas tradicionales y más." },
+        { "icon": "fish", "title": "Sushi & Rolls", "description": "New York, California, Chicago, Miami — rolls frescos de 5 o 10 piezas. Combos especiales." },
+        { "icon": "flame", "title": "Wok Salteados", "description": "Fideos de arroz, verduras salteadas, con tu proteína favorita: pollo, carne, cerdo o camarones." },
+        { "icon": "chefHat", "title": "Entradas & Gyozas", "description": "Arrolladitos crocantes, gyozas al vapor o fritas, yakitori, romanitas de pollo y pescado." }
+      ]
+    },
+    "menuSection": {
+      "title": "Nuestra Carta",
+      "description": "Explorá nuestro menú completo con más de 60 platos",
+      "categories": [
+        { "id": "entradas", "name": "Entradas", "priceRange": "Gs 20.000 – 45.000" },
+        { "id": "sopas", "name": "Sopas", "priceRange": "Gs 35.000 – 55.000" },
+        { "id": "salteados", "name": "Salteados Wok", "priceRange": "Gs 32.000 – 54.000" },
+        { "id": "carnes", "name": "Carnes & Pollo", "priceRange": "Gs 40.000 – 50.000" },
+        { "id": "mariscos", "name": "Mariscos & Pescados", "priceRange": "Gs 63.000 – 94.000" },
+        { "id": "sushi", "name": "Sushi & Combos", "priceRange": "Gs 24.000 – 150.000" }
+      ]
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedule": [
+        { "day": "Sábado", "hours": "11:00 – 14:00 · 19:00 – 23:00" }
+      ],
+      "note": "Consultanos por días adicionales al WhatsApp"
+    },
+    "cta": {
+      "title": "¿Listo para comer algo rico?",
+      "subtitle": "Pedí por WhatsApp o pasá por el local",
+      "buttonText": "Pedir Ahora",
+      "buttonHref": "https://wa.me/595974161698"
+    }
+  },
+  "menu": {
+    "seo": {
+      "title": "Carta — Tsuki Restaurante Oriental",
+      "description": "Menú completo de Tsuki: entradas, sopas, salteados wok, carnes, pollo, cerdo, mariscos, pescados, sushi y combos."
+    },
+    "intro": {
+      "title": "Nuestra Carta",
+      "subtitle": "Explorá todos nuestros platos"
+    },
+    "categories": [
+      {
+        "id": "entradas",
+        "name": "Entradas",
+        "icon": "utensils",
+        "items": [
+          { "name": "Arrolladitos de Primavera", "description": "Masa crocante rellena de repollo, cebolla y zanahoria.", "price": "Gs 20.000 (3 unid.) / Gs 30.000 (5 unid.)" },
+          { "name": "Arrolladitos Mixto", "description": "Masa crocante rellena de verduras, carne y pollo.", "price": "Gs 26.000 (3 unid.) / Gs 38.000 (5 unid.)" },
+          { "name": "Gyozas al Vapor", "description": "Masa rellena de carne de cerdo condimentado (8 unidades).", "price": "Gs 35.000" },
+          { "name": "Gyozas Fritas", "description": "Masa rellena de carne de cerdo condimentado (8 unidades).", "price": "Gs 35.000" },
+          { "name": "Bastoncitos de Salmón", "description": "Salmón empanado y frito (5 piezas).", "price": "Gs 45.000" },
+          { "name": "Yakitori (Asaditos)", "description": "Asada con Salsa Teriyaki. De cerdo, carne y pollo (2 unidades).", "price": "Gs 35.000" },
+          { "name": "Romanitas de Pollo", "description": "Trozos de pollo condimentado frito y crocante.", "price": "Gs 35.000" },
+          { "name": "Romanitas de Pescado", "description": "Filetes de tilapia condimentada frita, crocante y sabrosa.", "price": "Gs 45.000" },
+          { "name": "Papas Fritas", "description": "Finitas rodajas de papas fritas, doradas y crujientes.", "price": "Gs 25.000" }
+        ]
+      },
+      {
+        "id": "sopas",
+        "name": "Sopas",
+        "icon": "utensils",
+        "items": [
+          { "name": "Sopa de Maíz con Pollo", "description": "Sopa tradicional china compuesta por maíz y pollo.", "price": "Gs 35.000" },
+          { "name": "Sopa Agripicante", "description": "Sopa intensa de verduras con huevo y un toque de picante.", "price": "Gs 40.000" },
+          { "name": "Sopa de Mariscos", "description": "Aromática sopa de mariscos con verduras.", "price": "Gs 55.000" },
+          { "name": "Ramen", "description": "Tradicional sopa de fideos con verduras y huevo.", "price": "Gs 38.000" },
+          { "name": "Sopa de Algas", "description": "Sopa de algas marinas con huevo y verduras frescas.", "price": "Gs 35.000" }
+        ]
+      },
+      {
+        "id": "salteados",
+        "name": "Salteados Wok",
+        "icon": "flame",
+        "type": "table",
+        "columns": ["Proteína", "Arroz Chino", "Fideo Arroz", "Chop Suey", "Yakisoba"],
+        "rows": [
+          ["Primavera", "Gs 35.000", "Gs 33.000", "Gs 32.000", "Gs 34.000"],
+          ["Pollo", "Gs 37.000", "Gs 37.000", "Gs 35.000", "Gs 38.000"],
+          ["Carne", "Gs 40.000", "Gs 40.000", "Gs 38.000", "Gs 44.000"],
+          ["Mixto", "Gs 43.000", "Gs 43.000", "Gs 41.000", "Gs 51.000"],
+          ["Cerdo", "Gs 37.000", "Gs 37.000", "Gs 33.000", "Gs 38.000"],
+          ["Camarones", "Gs 48.000", "Gs 47.000", "Gs 45.000", "Gs 48.000"],
+          ["Mixto c/ Camarones", "Gs 53.000", "Gs 53.000", "Gs 51.000", "Gs 54.000"],
+          ["Arroz Vapor", "Gs 10.000", "", "", ""]
+        ]
+      },
+      {
+        "id": "carne",
+        "name": "Carne",
+        "icon": "beef",
+        "items": [
+          { "name": "Verduras Salteadas", "price": "Gs 49.000" },
+          { "name": "Cebolla y Locote", "price": "Gs 46.000" },
+          { "name": "Cebollita de Verdeo", "price": "Gs 46.000" },
+          { "name": "Brócoli", "price": "Gs 49.000" },
+          { "name": "Costillita Tsuki", "price": "Gs 50.000" },
+          { "name": "Salsa de Ostras", "price": "Gs 50.000" },
+          { "name": "Salsa China", "price": "Gs 50.000" }
+        ]
+      },
+      {
+        "id": "pollo",
+        "name": "Pollo",
+        "icon": "drumstick",
+        "items": [
+          { "name": "Verduras Salteadas", "price": "Gs 42.000" },
+          { "name": "Agridulce", "price": "Gs 40.000" },
+          { "name": "Salsa Teriyaki", "price": "Gs 40.000" },
+          { "name": "Salsa Curry", "price": "Gs 43.000" },
+          { "name": "Al Champiñón", "price": "Gs 43.000" }
+        ]
+      },
+      {
+        "id": "cerdo",
+        "name": "Cerdo",
+        "icon": "drumstick",
+        "items": [
+          { "name": "Verduras Salteadas", "price": "Gs 42.000" },
+          { "name": "Agridulce", "price": "Gs 40.000" },
+          { "name": "Salsa Picante y Ajo", "price": "Gs 45.000" },
+          { "name": "Al Champiñón", "price": "Gs 43.000" },
+          { "name": "Costillita de Cerdo", "price": "Gs 50.000" }
+        ]
+      },
+      {
+        "id": "mariscos",
+        "name": "Mariscos",
+        "icon": "fish",
+        "items": [
+          { "name": "Camarones Fritos", "price": "Gs 65.000" },
+          { "name": "Camarones Verduras", "price": "Gs 68.000" },
+          { "name": "Camarones Salsa China", "price": "Gs 70.000" },
+          { "name": "Camarones Brócoli", "price": "Gs 68.000" },
+          { "name": "Aros de Calamar Fritos", "price": "Gs 63.000" },
+          { "name": "Calamar Verduras", "price": "Gs 68.000" },
+          { "name": "Mariscos Verduras", "price": "Gs 72.000" }
+        ]
+      },
+      {
+        "id": "pescados",
+        "name": "Pescados",
+        "icon": "fish",
+        "items": [
+          { "name": "Frito con Verduras", "price": "Gs 70.000" },
+          { "name": "Salsa China", "price": "Gs 73.000" },
+          { "name": "Salsa de Ostras", "price": "Gs 73.000" },
+          { "name": "Salmón con Verduras", "price": "Gs 94.000" }
+        ]
+      },
+      {
+        "id": "sushi",
+        "name": "Sushi & Combos",
+        "icon": "fish",
+        "items": [
+          { "name": "New York Roll", "description": "Salmón, queso crema, aguacate.", "price": "Gs 27.000 (5 pz) / Gs 47.000 (10 pz)" },
+          { "name": "California Roll", "description": "Kanikama, queso crema, aguacate, pepino.", "price": "Gs 25.000 (5 pz) / Gs 47.000 (10 pz)" },
+          { "name": "Chicago Roll", "description": "Camarones, queso crema, pepino.", "price": "Gs 25.000 (5 pz) / Gs 47.000 (10 pz)" },
+          { "name": "Miami Roll", "description": "Salmón, queso crema, mango, aguacate.", "price": "Gs 28.000 (5 pz) / Gs 49.000 (10 pz)" },
+          { "name": "Los Angeles Roll", "description": "Atún, pepino, queso crema.", "price": "Gs 24.000 (5 pz) / Gs 46.000 (10 pz)" },
+          { "name": "Las Vegas Roll", "description": "Mango, aguacate, pepino, queso crema.", "price": "Gs 24.000 (5 pz) / Gs 45.000 (10 pz)" },
+          { "name": "Nigiri de Salmón", "description": "3 piezas.", "price": "Gs 35.000" },
+          { "name": "Mix 25 piezas", "description": "New York, Los Angeles, California.", "price": "Gs 90.000" },
+          { "name": "Mix 40 piezas", "description": "New York, Los Angeles, California, Chicago.", "price": "Gs 150.000" }
+        ],
+        "notes": [
+          "Apanado y frito a elección: +Gs 3.000 (5 pz) / +Gs 6.000 (10 pz)",
+          "Extra salsa: Gs 5.000"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "title": "Nosotros — Tsuki Restaurante Oriental",
+      "description": "Conocé Tsuki Restaurante Oriental en San Lorenzo. Cocina oriental auténtica con ingredientes frescos."
+    },
+    "hero": {
+      "title": "Sobre Tsuki",
+      "subtitle": "Pasión por la cocina oriental"
+    },
+    "story": [
+      "Tsuki Restaurante Oriental nace de la pasión por los sabores auténticos de Asia. En San Lorenzo, ofrecemos una experiencia culinaria que combina recetas tradicionales chinas con la frescura del sushi japonés.",
+      "Nuestra carta fue creada para compartir — desde arrolladitos crocantes hasta combos de sushi para grupos. Cada plato se prepara con ingredientes frescos, respetando las técnicas tradicionales de wok y vapor.",
+      "Te esperamos en Louis Pasteur, San Lorenzo, para que descubras por qué Tsuki es el lugar favorito de los amantes de la comida oriental en Paraguay."
+    ],
+    "values": [
+      { "title": "Frescura", "description": "Ingredientes seleccionados cuidadosamente para cada plato." },
+      { "title": "Tradición", "description": "Recetas que respetan las técnicas culinarias orientales." },
+      { "title": "Variedad", "description": "Más de 60 platos para todos los gustos." }
+    ]
+  },
+  "gallery": {
+    "seo": {
+      "title": "Galería — Tsuki Restaurante Oriental",
+      "description": "Fotos de nuestros platos: sushi, arrolladitos, wok, gyozas y más."
+    },
+    "hero": {
+      "title": "Galería",
+      "subtitle": "Mirá nuestros platos"
+    },
+    "images": [
+      { "src": "/images/gallery/placeholder-1.jpg", "alt": "Sushi rolls", "category": "sushi" },
+      { "src": "/images/gallery/placeholder-2.jpg", "alt": "Arrolladitos", "category": "entradas" },
+      { "src": "/images/gallery/placeholder-3.jpg", "alt": "Plato wok", "category": "wok" }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Contacto — Tsuki Restaurante Oriental",
+      "description": "Contactanos por WhatsApp o visitanos en Louis Pasteur, San Lorenzo."
+    },
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Estamos acá para vos"
+    },
+    "info": [
+      { "icon": "mapPin", "label": "Dirección", "value": "Louis Pasteur, San Lorenzo 111434, Paraguay" },
+      { "icon": "phone", "label": "Teléfono", "value": "+595 974 161698" },
+      { "icon": "clock", "label": "Horarios", "value": "Sábado 11:00–14:00, 19:00–23:00" }
+    ],
+    "cta": {
+      "title": "Hacé tu pedido",
+      "subtitle": "Escribinos al WhatsApp y te confirmamos al instante",
+      "buttonText": "Escribir al WhatsApp",
+      "buttonHref": "https://wa.me/595974161698"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Tsuki Restaurante Oriental. Todos los derechos reservados.",
+    "poweredBy": "Ai-Whisperers",
+    "poweredByUrl": "https://paragu-ai.com",
+    "links": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Carta", "href": "/carta" },
+      { "label": "Galería", "href": "/galeria" },
+      { "label": "Nosotros", "href": "/nosotros" },
+      { "label": "Contacto", "href": "/contacto" }
+    ]
+  }
+}

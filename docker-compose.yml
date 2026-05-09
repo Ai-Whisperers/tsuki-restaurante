@@ -1,0 +1,29 @@
+services:
+  web:
+    build: .
+    image: tsuki:prod
+    ports:
+      - "3000"
+    networks:
+      - agent-net
+    deploy:
+      mode: replicated
+      replicas: 2
+      labels:
+        - "traefik.enable=true"
+        - "traefik.docker.network=agent-net"
+        - "traefik.http.routers.tsuki.entrypoints=websecure"
+        - "traefik.http.routers.tsuki.rule=Host(`tsuki.paragu-ai.com`)"
+        - "traefik.http.routers.tsuki.tls=true"
+        - "traefik.http.routers.tsuki.tls.certresolver=letsencryptresolver"
+        - "traefik.http.services.tsuki.loadbalancer.server.port=3000"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+networks:
+  agent-net:
+    external: true
