@@ -9,7 +9,7 @@
     "email": "",
     "address": "Louis Pasteur, San Lorenzo 111434, Paraguay",
     "addressShort": "Louis Pasteur, San Lorenzo",
-    "hours": "Sáb 11:00–14:00 · 19:00–23:00",
+    "hours": "Lun–Sáb 11:00–14:00 · 19:00–23:00, Dom cerrado",
     "instagram": "",
     "facebook": "",
     "ogImage": "/images/og.jpg"
@@ -299,7 +299,22 @@
       "title": "Confirmá tu pedido",
       "subtitle": "Revisá tu carrito y envialo por WhatsApp para confirmar",
       "buttonText": "Enviar pedido por WhatsApp",
-      "emptyText": "Tu carrito está vacío — agregá productos de la carta"
+      "emptyText": "Tu carrito está vacío — agregá productos de la carta",
+      "deliveryLocal": "Retiro en local",
+      "deliveryAddress": "Delivery",
+      "paymentCash": "Efectivo",
+      "paymentTransfer": "Transferencia",
+      "observationPlaceholder": "Ej: Sin cebolla, sin sal, etc.",
+      "addressPlaceholder": "Ej: Av. Defensores del Chaco 1234",
+      "detailsTitle": "Detalles del pedido",
+      "deliveryLabel": "Modalidad",
+      "paymentLabel": "Pago",
+      "observationLabel": "Observaciones",
+      "nameLabel": "Tu nombre (opcional)",
+      "namePlaceholder": "Ej: Juan Pérez"
+    },
+    "search": {
+      "placeholder": "Buscar plato..."
     }
   },
   "footer": {

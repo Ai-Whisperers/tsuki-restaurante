@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/api/",
+      disallow: ["/api/", "/qr"],
     },
     sitemap: "https://tsuki.paragu-ai.com/sitemap.xml",
   };

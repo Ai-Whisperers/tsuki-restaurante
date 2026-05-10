@@ -29,6 +29,7 @@ export default function OrderPage() {
         categories={c.menu.categories}
         whatsapp={c.site.whatsapp}
         cta={c.order.cta}
+        orderContent={c.order}
       />
     </>
   );
