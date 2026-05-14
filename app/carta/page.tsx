@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import content from "@/content/es.json";
+import WeeklySpecial from "@/components/weekly-special";
 import MenuPageClient from "./menu-client";
 
 const c = content as any;
@@ -27,6 +28,16 @@ export default function MenuPage() {
           </p>
         </div>
       </section>
+
+      <WeeklySpecial
+        title={c.home.weeklySpecial?.title}
+        subtitle={c.home.weeklySpecial?.subtitle}
+        badge={c.home.weeklySpecial?.badge}
+        item={c.home.weeklySpecial?.item}
+        ctaText={c.home.weeklySpecial?.ctaText}
+        ctaHref={c.home.weeklySpecial?.ctaHref}
+        validDays={c.home.weeklySpecial?.validDays}
+      />
 
       <MenuPageClient categories={c.menu.categories} whatsapp={c.site.whatsapp} />
     </>

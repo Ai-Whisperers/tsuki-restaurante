@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import content from "@/content/es.json";
 import Hero from "@/components/hero";
 import FeaturesSection from "@/components/features-section";
+import WeeklySpecial from "@/components/weekly-special";
 import MenuPreviewSection from "@/components/menu-preview-section";
 import CtaBanner from "@/components/cta-banner";
 
@@ -32,6 +33,16 @@ export default function HomePage() {
         title={h.features.title}
         subtitle={h.features.subtitle}
         items={h.features.items}
+      />
+
+      <WeeklySpecial
+        title={h.weeklySpecial?.title}
+        subtitle={h.weeklySpecial?.subtitle}
+        badge={h.weeklySpecial?.badge}
+        item={h.weeklySpecial?.item}
+        ctaText={h.weeklySpecial?.ctaText}
+        ctaHref={h.weeklySpecial?.ctaHref}
+        validDays={h.weeklySpecial?.validDays}
       />
 
       <MenuPreviewSection
