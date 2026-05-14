@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/ai-whisperers/tsuki:latest
+    image: tsuki:latest
     ports:
       - "3000"
     networks:
