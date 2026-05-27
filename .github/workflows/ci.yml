@@ -1,0 +1,7 @@
+name: CI
+on: [push]
+jobs:
+  ci:
+    uses: Ai-Whisperers/ci-cd/.github/workflows/ci-nextjs.yml@main
+    with:
+      node-version: "20"
